@@ -21,6 +21,6 @@ public class Osoba {
     }
 }
 
-//public int compareTo(Osoba g) {
-//    return Double.valueOf(g.this.godine).compareTo(this.godine);
+//public int compareTo(Osoba Drugaosoba) {
+//    return Integer.compare(this.godine, osoba.godine);
 //}

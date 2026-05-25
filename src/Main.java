@@ -24,6 +24,7 @@ public class Main {
         System.out.println("");
         System.out.println("Sortiranje i ispis");
 
+//        mojFakultet.getPopis().sort(null);
 //        Collections.sort(mojFakultet.getPopis());
 //        for (Osoba osoba : mojFakultet.getPopis()) {
 //            System.out.println(osoba.getGodine());
