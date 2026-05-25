@@ -2,7 +2,7 @@ package zadatakStudent;
 
 import java.util.ArrayList;
 
-public class Fakultet {
+public class Fakultet  {
 //    public String ime;
 //    public String prezime;
 //      public int godine;
@@ -14,14 +14,6 @@ public Fakultet(){
     public ArrayList<Osoba> getPopis() {
         return popis;
     }
-
-//@Override
-//    public int compareTo(Fakultet o) {
-//        return Double.valueOf(o.popis).compareTo(popis());
-//    }
-
-
-
 
 
 }

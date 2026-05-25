@@ -13,7 +13,6 @@ public class Student extends Osoba{
         this.godinaStudija = godinaStudija;
     }
 
-
     @Override
     public String toString() {
         return "Pozdrav, ja sam " + ime + " " + prezime + " i imam " + godine + " godina." + " Ja sam student s brojem indexa " +  BrojIndexa + " na " +  godinaStudija + ". godini.";

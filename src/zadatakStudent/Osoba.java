@@ -11,9 +11,16 @@ public class Osoba {
         this.godine = godine;
     }
 
+    public int getGodine() {
+        return godine;
+    }
 
     @Override
     public String toString() {
         return "Pozdrav, ja sam " + ime + " " + prezime + " i imam " + godine + " godina.";
     }
 }
+
+//public int compareTo(Osoba g) {
+//    return Double.valueOf(g.this.godine).compareTo(this.godine);
+//}

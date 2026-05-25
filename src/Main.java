@@ -20,15 +20,14 @@ public class Main {
 
         for(Osoba popis : mojFakultet.getPopis()){
             System.out.println(popis);
-            System.out.println("");
         }
+        System.out.println("");
         System.out.println("Sortiranje i ispis");
 
 //        Collections.sort(mojFakultet.getPopis());
-//        for (Fakultet popis : mojFakultet.getPopis()){
-//            System.out.println(popis);
+//        for (Osoba osoba : mojFakultet.getPopis()) {
+//            System.out.println(osoba.getGodine());
 //        }
-
 
 
     }
