@@ -1,6 +1,6 @@
 package zadatakStudent;
 
-public class Osoba {
+public class Osoba implements Comparable<Osoba>{
     public String ime;
     public String prezime;
     public int godine;
@@ -19,8 +19,11 @@ public class Osoba {
     public String toString() {
         return "Pozdrav, ja sam " + ime + " " + prezime + " i imam " + godine + " godina.";
     }
+
+    @Override
+    public int compareTo(Osoba o) {
+        return Integer.compare(this.godine, o.godine);
+    }
 }
 
-//public int compareTo(Osoba Drugaosoba) {
-//    return Integer.compare(this.godine, osoba.godine);
-//}
+
